@@ -5,8 +5,8 @@ import {
     HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
+import Prospective from "./Prospective";
+import Bewerben from "./Bewerben";
 
 class Main extends Component {
     render() {
@@ -15,19 +15,20 @@ class Main extends Component {
                 <div>
 
                     <header>
-                        <h1>React Boilerplate by Djurango</h1>
+                        <h1>Web-Entwickler (m/w)</h1>
+                        <h3>100%, Zürich</h3>
                     </header>
 
                      <ul className="nav">
                         <li><NavLink exact to="/">Home</NavLink></li>
-                        <li><NavLink to="/stuff">Stuff</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li><NavLink to="/prospective">Prospective</NavLink></li>
+                        <li><NavLink to="/bewerben">Bewerben</NavLink></li>
                     </ul>
 
                     <div className="content">
                         <Route exact path="/" component={Home}/>
-                        <Route path="/stuff" component={Stuff}/>
-                        <Route path="/contact" component={Contact}/>
+                        <Route path="/prospective" component={Prospective}/>
+                        <Route path="/bewerben" component={Bewerben}/>
                     </div>
 
                     <footer>
