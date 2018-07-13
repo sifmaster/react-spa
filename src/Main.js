@@ -13,8 +13,13 @@ class Main extends Component {
         return (
             <HashRouter>
                 <div>
-                    <h1>React Boilerplate by Djurango</h1>
-                    <ul className="header">
+
+                    <header>
+                        <h1>React Boilerplate by Djurango</h1>
+                    </header>
+
+
+                    <ul className="nav">
                         <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/stuff">Stuff</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
