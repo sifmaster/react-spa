@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
     overflow-y: scroll;
@@ -8,7 +8,7 @@ body {
     background-color: rgba(0, 91, 156, 0.2);
     padding: 20px;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -24,7 +24,7 @@ header,
 .navigation,
 .content,
 footer{
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -89,12 +89,13 @@ ul.navigation li a {
 footer {
     background-color: #005b9c;
     padding: 20px;
+    color: white;
 }
 
 
 /* Responsive */
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 550px) {
     ul.navigation li a {
         color: white;
         font-weight: 400;
@@ -102,6 +103,11 @@ footer {
         padding: 8px;
         display: inline-block;
         font-size: 12px;
+    }
+    select,
+    textarea,
+    input {
+        font-size: 16px;
     }
 }
 

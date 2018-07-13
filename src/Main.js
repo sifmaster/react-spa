@@ -35,7 +35,7 @@ class Main extends Component {
 
 
                     <footer>
-                        <p>(c) djurango</p>
+                        <p>(c) milos djuric</p>
                     </footer>
 
                 </div>
