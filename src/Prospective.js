@@ -12,6 +12,12 @@ class Stuff extends Component {
 
                 <h3>Wo Sie uns finden</h3>
 
+                <p><strong>Prospective Media Services AG</strong><br/>
+                    Seestrasse 513<br/>
+                    8038 Zürich<br/>
+                    <b><a href="tel: +41442696202"> Tel. +41 (0)44 269 62 02</a></b><br/>
+                    <b><a href="mailto:info@tomtalent.ch"> info(at)tomtalent.ch</a></b>
+                </p>
             </main>
         );
     }

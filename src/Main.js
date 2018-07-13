@@ -19,17 +19,20 @@ class Main extends Component {
                         <h3>100%, Zürich</h3>
                     </header>
 
-                     <ul className="nav">
+                    <nav>
+                     <ul className="navigation">
                         <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/prospective">Prospective</NavLink></li>
                         <li><NavLink to="/bewerben">Bewerben</NavLink></li>
                     </ul>
+                    </nav>
 
                     <div className="content">
                         <Route exact path="/" component={Home}/>
                         <Route path="/prospective" component={Prospective}/>
                         <Route path="/bewerben" component={Bewerben}/>
                     </div>
+
 
                     <footer>
                         <p>(c) djurango</p>
