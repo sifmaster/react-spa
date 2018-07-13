@@ -9,7 +9,8 @@ h1, h2, p, ul, li {
 
 header,
 .nav,
-.content {
+.content,
+footer{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +29,7 @@ ul.nav li {
 
 ul.nav {
     background-color: #000;
+    margin-top: 0;
 }
 
 ul.nav li a {
@@ -42,6 +44,11 @@ ul.nav li a {
     background-color: #FFF;
     padding: 20px;
     height: 500px;
+    margin-top: -16px;
+}
+
+.active {
+    background-color: #0099FF;
 }
 
 .content h2 {
@@ -53,6 +60,8 @@ ul.nav li a {
     margin-bottom: 10px;
 }
 
-.active {
-    background-color: #0099FF;
+footer {
+    background-color: darkgray;
+    padding: 20px;
 }
+
