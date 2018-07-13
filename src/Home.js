@@ -4,6 +4,7 @@ class Home extends Component {
     render() {
         return (
             <main>
+                <img className="mainpic" src="https://i.imgur.com/IG0b08z.png"/>
                 <h3>Web-Entwickler (m/w)</h3>
                 <p>Prospective Media Services PMS AG ist der Spezialist für umfassende Rekrutierungslösungen. Wir unterstützen
                     tatkräftig beim Multichannel Recruiting und bieten kompetente Betreuung in allen Rekrutierungsprozessen und
