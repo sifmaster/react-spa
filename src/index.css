@@ -46,15 +46,15 @@ ul.nav li a {
     display: inline-block;
 }
 
+.active {
+    background-color: #005b9c;
+}
+
 .content {
     background-color: #FFF;
     padding: 20px;
     height: auto;
     margin-top: -16px;
-}
-
-.active {
-    background-color: #005b9c;
 }
 
 .content h2 {
@@ -64,6 +64,7 @@ ul.nav li a {
 
 .content li {
     margin-bottom: 10px;
+    list-style: square;
 }
 
 footer {

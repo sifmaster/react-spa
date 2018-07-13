@@ -45,6 +45,26 @@ class Home extends Component {
                     <li>Attraktive Arbeitsplätze am See in Zürich Wollishofen</li>
                 </ul>
 
+                <br/>
+
+                <p>Fühlst du dich angesprochen? Wir freuen uns auf deine Bewerbungsunterlagen per E-Mail an Rebecca, rebecca.kuenzler@tomtalent.ch oder melde Dich unter 044 269 62 02. </p>
+                <p>Die Prospective Media Services AG gehört zur Tom Talent Holding. Die Gruppe steht für nachhaltiges Unternehmertum und führt partnerschaftlich unter den Geschäftsbereichen «digital spaces» und «live spaces» 10 Firmenbeteiligungen aus Medien, Events und Gastronomie.</p>
+
+                <br/>
+
+                <p><strong>Prospective Media Services AG</strong><br/>
+                    Rebecca Künzler<br/>
+                    Seestrasse 513<br/>
+                    8038 Zürich<br/>
+                    Tel. +41 (0)44 269 62 02<br/>
+                    rebecca.kuenzler@tomtalent.com<br/>
+                </p>
+
+                <div className="box-bewerben">
+
+
+
+                </div>
 
             </main>
         );
