@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 91, 156, 0.2);
+    background-color: rgba(0, 91, 156, 0.2) !important;
     padding: 20px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -17,7 +17,7 @@ a {
 }
 
 .main-container {
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 header,
@@ -85,6 +85,17 @@ ul.navigation li a {
 .mainpic {
     max-width: 100%;
 }
+
+.form-control, .btn {
+    border-radius: 0px !important;
+}
+
+.btn-primary {
+    background-color: #005b9c !important;
+    border-color: #005b9c !important;
+}
+
+
 
 footer {
     background-color: #005b9c;
